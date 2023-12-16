@@ -1,11 +1,20 @@
-.App {
-  text-align: center;
+.menu_libro_usuario {
+  margin-left: auto;
+}
+.menu{
+  background-color: #282c34;  
+}
+.menu .navbar-brand{
+  color: white;
+}
+.menu .nav-link{
+  color: white;
+}
+.menu .nav-link:active,
+.menu .nav-link:focus {
+  color: white; /* Cambia el color cuando el enlace está activo o enfocado */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
