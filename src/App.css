@@ -14,34 +14,16 @@
 .menu .nav-link:focus {
   color: white; /* Cambia el color cuando el enlace está activo o enfocado */
 }
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.menu .nav-link:visited {
+  color: white; /* Cambia el color del enlace después de ser visitado */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.imagen_carrusel{
+  opacity: 0.9;
+  transition: opacity 0.5s ease;
 }
-
-.App-link {
-  color: #61dafb;
+.pie_pagina{
+  background-color: #282c34;  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pie_pagina .pie_pagina_texto{
+  color: darkgray;
 }
