@@ -25,6 +25,13 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
+      <footer className="bg-dark text-light mt-0.01">
+      <Container className="text-center py-3">
+        <p>&copy; 2023 Brayan's Literary Threads. Proyecto para fines demostrativos.</p>
+        <p>Brayan Steven Horta Quevedo</p>
+      </Container>
+    </footer>
     </div>
   );
 }
